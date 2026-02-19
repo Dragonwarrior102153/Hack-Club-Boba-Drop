@@ -1,0 +1,209 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    font-family: "Roboto Mono";
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(230, 211, 190);
+}
+
+div.navbar {
+    overflow: hidden;
+    background-color: rgb(194, 2, 2);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 4px 4px 20px 0 rgba(240, 31, 31, .5);
+    margin: 0%;
+}
+
+.scrollGallery {
+    background-color: rgb(235, 179, 141);
+    overflow: auto;
+    white-space: nowrap;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.title {
+    font-size: 150px;
+    margin-left: 80px;
+    text-align: center;
+}
+
+.column {
+    text-indent: 400px;
+}
+
+.productBackground {
+    overflow: hidden;
+    width: 350px;
+    height: 80px;
+    background-color: rgb(235, 179, 141);
+    padding: 15px;
+    transition: height 1s, width 1s;
+    border-radius: 10px;
+}
+.productBackground:hover {
+    cursor: text;
+    width: 450px;
+    height: 400px;
+}
+
+.productDescription {
+    overflow: hidden;
+    width: 250px;
+    height: 80px;
+    background-color: rgb(235, 179, 141);
+    padding: 15px;
+    transition: height 1s, width 1s;
+    border-radius: 10px;
+}
+.productDescription:hover {
+    cursor: text;
+    width: 450px;
+    height: 290px;
+}
+
+.productVersion {
+    overflow: hidden;
+    width: 200px;
+    height: 80px;
+    background-color: rgb(235, 179, 141);
+    padding: 15px;
+    transition: height 1s, width 1s;
+    border-radius: 10px;
+}
+.productVersion:hover {
+    cursor: text;
+    width: 400px;
+    height: 230px;
+}
+
+.popup {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,
+            0,
+            0,
+            0.4);
+    display: none;
+}
+
+.popupContent {
+    background-color: white;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888888;
+    width: 30%;
+    font-weight: bolder;
+    border: 2px solid rgb(0,0,0);
+}
+
+.show {
+    display: block;
+}
+
+.reward {    
+    float: left;
+    width: 50%;
+    background-color: rgb(235, 179, 141);
+    padding: 70px;
+    border: 1px solid #000;
+}
+
+.imgGallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+.v {
+    padding: 15px;
+    text-align: center;
+}
+
+.title p {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(235, 179, 141);
+    margin-right: 80px;
+}
+
+.popupContent button {
+    display: block;
+    margin: 0 auto;
+}
+
+.popupContent h1 {
+    color: red;
+    text-align: center;
+    display: block;
+}
+
+.popupContent p {
+    text-align: center;
+}
+  
+.imgGallery img {
+    width: 100%;
+    height: 200px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar img {
+    float: left;
+    display: block;
+    width: 50px;
+    height: 47px;
+    align-self: center;
+}
+
+.navbar a:hover {
+    background-color: rgb(219, 59, 59);
+    color: rgb(255, 255, 255);
+}
+
+#orderHere {
+    align-items: center;
+    padding: 30px;
+    size: 500px;
+    padding-right: 20%;
+}
+
+#rewards::after {
+    clear:both;
+    display: table;
+}
+
+#info {
+    padding-left: 6px;
+}
+
+#orderButton {
+    background-color: greenyellow;
+}
+
+#ending {
+    text-align: center;
+    background-color: rgb(235, 179, 141);
+}
